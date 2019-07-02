@@ -59,4 +59,11 @@ while (j <= 100) {
 function soma(num1, num2) {
     return num1 + num2;
 }
-console.log(soma(4, 3));
+
+var funcaoExibeAlgo = () => { console.log('Hello world!') }
+
+
+// executa uma vez após o tempo (3 segundos)
+setTimeout(funcaoExibeAlgo, 3000)
+    // imprime a cada 1 segundo
+setInterval(funcaoExibeAlgo, 1000)
